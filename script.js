@@ -14,12 +14,12 @@ AOS.init({
 
 const typed = new Typed("#typing", {
     strings: [
-        "Python Full Stack Developer",
+        "Python Developer",
+        "Technical Support Executive",
         "Django Developer",
-        "Machine Learning Enthusiast",
-        "AI & ADAS Developer",
         "Backend Developer",
-        "Problem Solver"
+        "Application Support Engineer",
+        "Python & SQL Developer"
     ],
     typeSpeed: 60,
     backSpeed: 40,

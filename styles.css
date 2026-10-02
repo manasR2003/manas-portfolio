@@ -251,10 +251,10 @@ body{
 
 .profile-img{
 
-    width:380px;
-    height:380px;
+    width:450px;
+    height:450px;
     object-fit:cover;
-    border-radius:50%;
+    border-radius: 50%;
     border:5px solid rgba(255,255,255,.1);
 
     animation:float 4s ease-in-out infinite;
@@ -432,24 +432,12 @@ body{
 }
 
 .timeline::before{
-
-    content:'';
-    width:4px;
-    height:100%;
-    background:var(--primary);
-
-    position:absolute;
-    left:50%;
-
-    transform:translateX(-50%);
-
+    display:none;
 }
 
 .timeline-item{
-
     position:relative;
     margin-bottom:50px;
-
 }
 
 /* ===========================
@@ -591,8 +579,8 @@ body::before{
 
     .profile-img{
 
-        width:280px;
-        height:280px;
+        width:400px;
+        height:400px;
         margin-top:40px;
 
     }
